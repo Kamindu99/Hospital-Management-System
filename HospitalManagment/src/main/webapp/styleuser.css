@@ -1,0 +1,86 @@
+@charset "ISO-8859-1";
+
+body {
+    margin: 0;  
+    padding: 0; 
+    background-image: url("z6.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#head{
+	
+	 width: 700px;  
+    height: 35px;
+    background-color:#E8BCC5; 
+    margin-left:50px;
+     border-radius: 15px;
+     font-weight: bold;
+     text-align:center;
+     font-size:35px;
+     
+     
+}
+
+#acc{
+	
+	margin-left:200px;
+	width: 420px;  
+    overflow: hidden; 
+    height:352px;
+    background-color:#78738A;  
+    opacity:0.9;
+      
+}
+
+#btn{
+	
+	margin-left:250px;
+}
+
+
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  font-weight: bold;
+}
+
+#customers td, #customers th {
+  border: 5px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+  font-size: 25px;
+    
+}
+
+.reg {
+   display:inline-block;
+   padding:12px 28px;
+   background-color: #008CBA;
+   font-size:20px;
+   border:none;
+   border-radius:10px;
+   color:#bcf5e7;
+   cursor:pointer;
+}
+
+.reg:hover {
+  background-color: #FF4F4F;
+  color:black;
+  
+}

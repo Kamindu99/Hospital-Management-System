@@ -1,0 +1,84 @@
+@charset "ISO-8859-1";
+
+body{
+background-image: url("z2.jpg");
+		background-position: center;
+		 height: 100%; 
+}
+
+.loginto{  
+        width: 320px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background: #23463f;
+        border-radius: 15px ; 
+        opacity: 0.8; 
+          
+}
+
+label{  
+    color: #08ffd1;  
+    font-size: 17px;  
+}  
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+#Log{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: blue;  
+  
+  
+}  
+span{  
+    color: white;  
+    font-size: 17px;  
+}  
+
+
+#fogot{  
+    float: right;  
+    background-color:#C4C4C4;
+    
+}
+
+
+#already{
+	font-size:16px;
+	color:#FF5050;
+	font-weight: bold;
+	margin-left:5px;
+}
+
+.logbtn {
+   display:inline-block;
+   padding:5px 5px;
+   background-color: white;
+   font-size:10px;
+   border:round;
+   border-radius:9px;
+   color:white;
+   cursor:pointer;
+}
+
+.logbtn:hover {
+  background-color: #ADD8E6;
+  color:black;
+}

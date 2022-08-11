@@ -1,0 +1,158 @@
+@charset "ISO-8859-1";
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    margin: 0;  
+    padding: 0; 
+    background-image: url("z2.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.signup-form {
+  font-family: "Roboto", sans-serif;
+  width:70%;
+  margin:30px auto;
+background: rgb(255,158,0);
+background: radial-gradient(circle, rgba(255,158,0,1) 0%, rgba(0,0,0,1) 100%);
+  border-radius: 10px;
+   opacity:0.8;
+}
+
+.form-header  {
+  width:100%;
+  margin:40px auto;
+  background: rgb(130,130,130);
+background: linear-gradient(0deg, rgba(130,130,130,1) 0%, rgba(10,160,185,1) 100%);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.form-header h1 {
+  font-size: 30px;
+  text-align:center;
+  color:#2e2e2e;
+  padding:20px 0;
+  border-bottom:1px solid #cccccc;
+}
+
+.form-body {
+  padding:10px 40px;
+  color:#666;
+  font-size: 16px;
+  
+}
+
+.form-group{
+  margin-bottom:20px;
+}
+
+.form-body .label-title {
+  color:white;
+  font-size: 17px;
+  font-weight: bold;
+  
+}
+
+.form-body .form-input {
+    font-size: 17px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 34px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #333333;
+    text-align: left;
+    border: 1px solid #d6d6d6;
+    border-radius: 4px;
+    background: white;
+    outline: none;
+     
+}
+
+
+
+.horizontal-group .left{
+  float:left;
+  width:49%;
+  
+}
+
+.horizontal-group .right{
+  float:right;
+  width:49%;
+  
+}
+
+
+.signup-form .form-footer  {
+  
+  background-color: #EFF0F1;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding:10px 80px;
+  text-align: right;
+  border-top: 1px solid #cccccc;
+  clear:both;
+  
+}
+
+.form-footer span {
+  float:left;
+  margin-top: 10px;
+  color:#999;  
+  font-style: italic;
+  font-weight: thin;
+}
+
+.reg {
+   display:inline-block;
+   padding:6px 65px;
+   background-color: green;
+   font-size:20px;
+   border:5px;
+   border-radius:25px;
+   color:#bcf5e7;
+   cursor:pointer;
+}
+
+.reg:hover {
+  background-color: #169c7b;
+  color:white;
+}
+
+.loginto {
+   display:inline-block;
+   padding:5px 25px;
+   background-color: #ba0066;
+   font-size:20px;
+   border:round;
+   border-radius:9px;
+   color:white;
+   cursor:pointer;
+}
+
+.loginto:hover {
+  background-color: red;
+  color:black;
+}
+
+.form-body a{
+  color:#ffffff;
+  text-decoration:none;
+  opacity:0.8;
+
+}
+
+#already{
+	font-size:20px;
+	color:black;
+	font-weight: bold;
+	margin-left:250px;
+}
+
+
+

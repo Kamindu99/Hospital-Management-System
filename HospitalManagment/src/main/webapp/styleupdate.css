@@ -1,0 +1,135 @@
+@charset "ISO-8859-1";
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    margin: 0;  
+    padding: 0; 
+    background-image: url("z1.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.update {
+  font-family: "Roboto", sans-serif;
+  width:80%;
+  margin:30px auto;
+  background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  border-radius: 10px;
+  opacity:0.9;
+}
+
+.form-header  {
+  width:100%;
+  margin:30px auto;
+  background-color: #5867a7;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.form-header h1 {
+  font-size: 30px;
+  text-align:center;
+  color:#2e2e2e;
+  padding:20px 0;
+  border-bottom:1px solid #cccccc;
+}
+
+.form-body {
+  padding:10px 40px;
+  color:#666;
+  font-size: 16px;
+}
+
+.form-group{
+  margin-bottom:20px;
+}
+
+.form-body .label-title {
+  color:#674617;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.form-body .form-input {
+    font-size: 17px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 34px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #333333;
+    text-align: left;
+    border: 1px solid #d6d6d6;
+    border-radius: 4px;
+    background: white;
+    outline: none;
+}
+
+
+
+.horizontal-group .left{
+  float:left;
+  width:49%;
+}
+
+.horizontal-group .right{
+  float:right;
+  width:49%;
+}
+
+
+.update .form-footer  {
+  
+  background-color: #EFF0F1;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding:10px 80px;
+  text-align: right;
+  border-top: 1px solid #cccccc;
+  clear:both;
+}
+
+.form-footer span {
+  float:left;
+  margin-top: 10px;
+  color:#999;  
+  font-style: italic;
+  font-weight: thin;
+}
+
+.upd {
+   display:inline-block;
+   padding:10px 65px;
+   font-size:20px;
+   background: rgb(158,34,195);
+   background: linear-gradient(0deg, rgba(158,34,195,1) 8%, rgba(253,187,45,1) 100%);
+   border:none;
+   border-radius:10px;
+   color: black;
+   cursor:pointer;
+   font-weight: bold;
+}
+
+.upd:hover {
+  
+  background: rgb(221,172,172);
+background: linear-gradient(0deg, rgba(221,172,172,1) 10%, rgba(156,150,137,1) 89%);
+  color:blue;
+}
+
+
+.form-body a{
+  color:#ffffff;
+  text-decoration:none;
+  opacity:0.8;
+
+}
+
+
+
+
+
